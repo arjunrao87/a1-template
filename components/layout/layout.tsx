@@ -22,7 +22,8 @@ export const Layout: React.FC<LayoutProps> = (props) => {
   return (
     <Box>
       <SkipNavLink>Skip to content</SkipNavLink>
-      <AnnouncementBanner {...announcementProps} />
+      {/* Hiding banner unless there is a reason to showcase */}
+      {/* <AnnouncementBanner {...announcementProps} /> */}
       <Header {...headerProps} />
       <Box as="main">
         <SkipNavContent />

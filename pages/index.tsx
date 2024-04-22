@@ -103,15 +103,12 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Sample template wording to be inserted here as <Em>needed!</Em>
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
-              <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
+              <HStack pt="4" pb="5" spacing="8">
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
@@ -216,7 +213,7 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      {/* <HighlightsItem colSpan={[1, null, 2]} title="Core components">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
             Get started for free with <Em>30+ open source components</Em>.
@@ -262,7 +259,7 @@ const HighlightsSection = () => {
           selected the most productive and established tools in the scene and
           build Saas UI on top of it.
         </Text>
-      </HighlightsItem>
+      </HighlightsItem> */}
       <HighlightsTestimonialItem
         name="Renata Alink"
         description="Founder"
@@ -328,8 +325,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          Not your standard dashboard template.
         </Heading>
       }
       description={

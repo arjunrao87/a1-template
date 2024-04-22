@@ -1,7 +1,7 @@
 import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaHeadset, FaExternalLinkAlt, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
@@ -39,24 +39,18 @@ const siteConfig = {
     ],
   },
   footer: {
-    copyright: (
-      <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
-      </>
-    ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
-        label: 'Contact',
+        href: 'mailto:a@b.com',
+        label: <FaHeadset size="14" />,
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/raoarjun',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
-        label: <FaGithub size="14" />,
+        href: 'https://arjunrao.co',
+        label: <FaExternalLinkAlt size="14" />,
       },
     ],
   },
