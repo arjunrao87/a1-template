@@ -32,7 +32,7 @@ const siteConfig = {
         href: '/login',
       },
       {
-        label: 'Sign Up',
+        label: 'Get Started',
         href: '/signup',
         variant: 'primary',
       },
