@@ -10,7 +10,17 @@ export const Hero = ({ title, description, children, ...rest }: HeroProps) => {
     <Flex py="20" alignItems="center" {...rest}>
       <Container>
         <VStack spacing={[4, null, 8]} alignItems="flex-start">
-          <Text fontSize='6xl' as="h1" textStyle="h1" textAlign="left">
+          <Text
+            bgGradient={[
+              'linear(to-tr, teal.300, yellow.400)',
+              'linear(to-t, blue.200, teal.500)',
+              'linear(to-b, orange.100, purple.300)',
+            ]}
+            bgClip='text'
+            fontSize='6xl'
+            textStyle="h1"
+            fontWeight='extrabold'
+          >
             {title}
           </Text>
           <Text

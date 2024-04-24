@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="A1 Title"
+        description="A1 Title"
       />
       <Box>
         <HeroSection />
@@ -97,8 +97,7 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                10x your leads, meetings and deals!
               </FallInPlace>
             }
             description={
