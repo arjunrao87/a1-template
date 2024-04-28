@@ -95,11 +95,7 @@ const HeroSection: React.FC = () => {
             id="home"
             justifyContent="flex-start"
             px="0"
-            title={
-              <FallInPlace>
-                10x your leads, meetings and deals!
-              </FallInPlace>
-            }
+            title="10x your leads, meetings and deals!"
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 Sample template wording to be inserted here as <Em>needed!</Em>
@@ -149,7 +145,6 @@ const HeroSection: React.FC = () => {
               <Box overflow="hidden" height="100%">
                 <Image
                   src="/static/screenshots/list.png"
-                  layout="fixed"
                   width={1200}
                   height={762}
                   alt="Screenshot of a ListPage in Saas UI Pro"
