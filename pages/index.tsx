@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="A1 Title"
-        description="A1 Title"
+        title="Centurion"
+        description="Centurion"
       />
       <Box>
         <HeroSection />

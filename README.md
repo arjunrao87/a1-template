@@ -1,6 +1,4 @@
-# A1 Template
-
-Standard SaaS template
+# Centurion
 
 ## TODOs
 - [x] Remove stock verbiage
