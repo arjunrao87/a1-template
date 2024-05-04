@@ -14,12 +14,12 @@ export const Hero = ({ title, description, children, ...rest }: HeroProps) => {
           <Text
             bgGradient='linear(to-l, #7928CA, #FF0080)'
             bgClip='text'
-            fontSize='9xl'
+            fontSize='8xl'
             textStyle="h1"
             fontWeight='extrabold'
           >
-            {title} &nbsp;
-              <span className="typer" id="main" data-words="leads,deals,business" data-delay="100" data-deleteDelay="1000"></span>
+            {title} <br/>
+              <span className="typer" id="main" data-words="writing,reading,working out,coding" data-delay="100" data-deletedelay="5000"></span>
               <span className="cursor" data-owner="main"></span>
           </Text>
           <Text

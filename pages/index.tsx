@@ -95,10 +95,10 @@ const HeroSection: React.FC = () => {
             id="home"
             justifyContent="flex-start"
             px="0"
-            title="Grow your "
+            title="Consistency comes from 100 repetitions of "
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Sample template wording to be inserted here as <Em>needed!</Em>
+                Commit, Execute, Repeat. <Em>100x</Em> 
               </FallInPlace>
             }
           >
