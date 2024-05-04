@@ -1,74 +1,28 @@
 import { HStack, Text } from '@chakra-ui/react'
 
 export default {
-  title: 'Pricing for every stage',
+  title: 'Pricing for all users',
   description:
-    'Pay once and get life-time access to our high quality components.',
+    'Pay once and get lifetime access to quality habit tracking.',
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
-      price: 'Free',
-      features: [
-        {
-          title: 'MIT License',
-        },
-        {
-          title: 'Authentication (Clerk/Supabase/Magic)',
-        },
-        {
-          title: 'Form (react-hook-form)',
-        },
-        {
-          title: 'Modals manager',
-        },
-        {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
-        },
-      ],
-      action: {
-        href: '#',
-      },
-    },
-    {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
+      id: 'starter',
+      title: 'Starter',
+      description: 'Habit tracking for beginners.',
       price: 'Free',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: '3 habits',
         },
         {
-          title: 'One developer',
+          title: 'Share to social media',
         },
         {
-          title: 'Advanced components',
-        },
-        {
-          title: 'Multiple themes',
-        },
-        {
-          title: 'Next.js and Electron boilerplates',
-        },
-        {
-          title: 'Private discord community',
+          title: '1 year history tracking',
         },
         {
           title: '1 year of updates',
-        },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
         },
       ],
       action: {
@@ -76,29 +30,29 @@ export default {
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
+      id: 'pro',
+      title: 'Pro',
+      description: 'Habit tracking for pros.',
       price: (
         <HStack>
           <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
+            $99
           </Text>
-          <Text>€499,-</Text>
+          <Text>$49</Text>
         </HStack>
       ),
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'Unlimited habits',
         },
         {
-          title: 'Unlimited developers',
+          title: 'Reminders for your habits',
         },
         {
-          title: '1 year of updates',
+          title: 'Lifetime history tracking',
         },
         {
-          title: 'Everything from Bootstrap',
+          title: 'Lifetime updates',
         },
         null,
         {
@@ -108,6 +62,36 @@ export default {
       ],
       action: {
         href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+      },
+    },
+    {
+      id: 'teams',
+      title: 'Teams',
+      description: 'Habit tracking for teams.',
+      price: (
+        <HStack>
+          <Text>Custom pricing</Text>
+        </HStack>
+      ),
+      features: [
+        {
+          title: 'Track habits across teams',
+        },
+        {
+          title: 'Enterprise SSO',
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          title: 'Private beta access',
+          iconColor: 'green.500',
+        },
+      ],
+      action: {
+        label: 'Contact us',
+        href: 'teams@centurion.com',
       },
     },
   ],

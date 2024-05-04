@@ -71,7 +71,7 @@ const Home: NextPage = () => {
       <Box>
         <HeroSection />
 
-        <HighlightsSection />
+        {/* <HighlightsSection /> */}
 
         <FeaturesSection />
 
@@ -98,7 +98,7 @@ const HeroSection: React.FC = () => {
             title="Consistency comes from 100 repetitions of "
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Commit, Execute, Repeat. <Em>100x</Em> 
+                Focus on what matters. Commit, Execute, Repeat. <Em>100x</Em>.
               </FallInPlace>
             }
           >
@@ -110,7 +110,7 @@ const HeroSection: React.FC = () => {
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
                   Get Started
                 </ButtonLink>
-                <ButtonLink
+                {/* <ButtonLink
                   size="lg"
                   href="https://demo.saas-ui.dev"
                   variant="outline"
@@ -127,8 +127,8 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
-                </ButtonLink>
+                  View testimonials
+                </ButtonLink> */}
               </ButtonGroup>
             </FallInPlace>
           </Hero>
@@ -144,10 +144,10 @@ const HeroSection: React.FC = () => {
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/images/image.png"
                   width={1200}
                   height={762}
-                  alt="Screenshot of a ListPage in Saas UI Pro"
+                  alt="Focus shot"
                   quality="75"
                   priority
                 />
@@ -157,7 +157,7 @@ const HeroSection: React.FC = () => {
         </Stack>
       </Container>
 
-      <Features
+      {/* <Features
         id="benefits"
         columns={[1, 2, 4]}
         iconSize={4}
@@ -197,7 +197,7 @@ const HeroSection: React.FC = () => {
           },
         ]}
         reveal={FallInPlace}
-      />
+      /> */}
     </Box>
   );
 };
@@ -440,11 +440,11 @@ const TestimonialsSection = () => {
 
 const PricingSection = () => {
   return (
-    <Pricing {...pricing}>
-      <Text p="8" textAlign="center" color="muted">
-        VAT may be applicable depending on your location.
-      </Text>
-    </Pricing>
+      <Pricing  {...pricing}>
+        <Text p="8" textAlign="center" color="muted">
+          VAT may be applicable depending on your location.
+        </Text>
+      </Pricing>
   );
 };
 

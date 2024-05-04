@@ -2,29 +2,26 @@ import * as React from 'react'
 
 const faq = {
   title: 'Frequently asked questions',
-  // description: '',
   items: [
     {
-      q: 'How many products can I use Saas UI Pro for?',
+      q: 'How many habits can I track with Centurion?',
       a: (
         <>
-          The single license can be used for one commercial application or SaaS
-          product and unlimited internal tools. You can buy as many licenses as
-          you need. <br /> The unlimited license does not have any restrictions.
+          In the Free tier, you are restricted to 3 habits. <br /> The Pro tier does not have any restrictions.
         </>
       ),
     },
     {
-      q: 'Can I use Saas UI Pro for client work?',
+      q: 'Can I use Centurion Pro for client work?',
       a: "Yes, that's totally up to you, as long as it fits the license you purchase.",
     },
     {
-      q: 'Can I use Saas UI Pro for Open Source projects?',
-      a: 'No currently not. A large part of Saas UI is already released under MIT license. We try to give back to the community as much as possible.',
+      q: 'Do you have built-in integrations with other apps?',
+      a: 'No, currently we do not. This is a highly requested feature so it is on our roadmap. If there are any integrations you are particularly interested in, please email support@centurion.com',
     },
     {
-      q: 'Does Saas UI include Figma, Sketch or other design files?',
-      a: 'No, Saas UI does not include any design assets. Maintaining design resources costs a lot of extra effort. We believe small teams can move much faster by designing directly in code, with help of Storybooks.',
+      q: 'Can I be reminded about my habits?',
+      a: 'Not at the moment. However, it is a highly requested feature and is on our roadmap!',
     },
   ],
 }

@@ -1,40 +1,34 @@
 export default {
-  title: 'Loved by tech people',
+  title: '❤️ by our users',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      name: 'Samantha Alvarez',
+      description: 'Landscape architect',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          "Centurion is a game-changer! It's transformed my habits by turning consistency into a fun challenge. Reaching 100 reps feels like an achievement every time. Thanks to Centurion, I'm more organized, focused, and productive than ever before!"
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
+      name: 'Marcus Chen',
+      description: 'Marine biologist',
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          "Centurion has revolutionized my approach to habit-building! Its intuitive interface and milestone-based system make progress tangible and exciting. From ideation to execution, Centurion keeps me motivated and accountable. I've achieved great outcomes in my personal and professional life, all thanks to this incredible app!"
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
+      name: 'Emily Patel',
       description: 'Frontend Engineer',
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          "Centurion is my secret weapon for success! With its help, I've turned my goals into habits and my habits into achievements. The journey to 100 reps is addictive and rewarding, fueling my consistency and creativity. Thanks to Centurion, I'm unlocking my full potential and reaching new heights every day!"
         </>
       ),
     },
