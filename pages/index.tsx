@@ -95,7 +95,7 @@ const HeroSection: React.FC = () => {
             id="home"
             justifyContent="flex-start"
             px="0"
-            title="10x your leads, meetings and deals!"
+            title="Grow your "
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 Sample template wording to be inserted here as <Em>needed!</Em>

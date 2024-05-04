@@ -1,4 +1,5 @@
 import { Container, Flex, FlexProps, Text, VStack } from '@chakra-ui/react'
+import Script from 'next/script'
 
 interface HeroProps extends Omit<FlexProps, 'title'> {
   title: string | React.ReactNode
@@ -7,17 +8,19 @@ interface HeroProps extends Omit<FlexProps, 'title'> {
 
 export const Hero = ({ title, description, children, ...rest }: HeroProps) => {
   return (
-    <Flex py="20" alignItems="center" {...rest}>
+    <Flex py="4" alignItems="center" {...rest}>
       <Container>
         <VStack spacing={[4, null, 8]} alignItems="flex-start">
           <Text
             bgGradient='linear(to-l, #7928CA, #FF0080)'
             bgClip='text'
-            fontSize='6xl'
+            fontSize='9xl'
             textStyle="h1"
             fontWeight='extrabold'
           >
-            {title}
+            {title} &nbsp;
+              <span className="typer" id="main" data-words="leads,deals,business" data-delay="100" data-deleteDelay="1000"></span>
+              <span className="cursor" data-owner="main"></span>
           </Text>
           <Text
             as="div"
@@ -30,6 +33,7 @@ export const Hero = ({ title, description, children, ...rest }: HeroProps) => {
           </Text>
         </VStack>
         {children}
+        <Script src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></Script>
       </Container>
     </Flex>
   )

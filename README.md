@@ -3,4 +3,8 @@
 Standard SaaS template
 
 ## TODOs
-- [ ] Remove stock verbiage
+- [x] Remove stock verbiage
+- [x] Added Typer
+- [ ] Replace logo
+- [ ] Connect to Stripe 
+- [ ] Connect Auth to Clerk 
