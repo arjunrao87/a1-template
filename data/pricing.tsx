@@ -26,7 +26,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: 'https://arjunrao87.gumroad.com/l/centurion',
       },
     },
     {
@@ -61,7 +61,7 @@ export default {
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: 'https://arjunrao87.gumroad.com/l/centurion',
       },
     },
     {

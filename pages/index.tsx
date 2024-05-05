@@ -22,12 +22,11 @@ import { SEO } from "components/seo/seo";
 
 import { FallInPlace } from "components/motion/fall-in-place";
 import { Hero } from "components/hero";
-import { Link, Br } from "@saas-ui/react";
+import { Br } from "@saas-ui/react";
 import { Em } from "components/typography";
-import { NextjsLogo, ChakraLogo } from "components/logos";
 import {
   FiArrowRight,
-  FiBox,
+  FiTarget,
   FiCheck,
   FiCode,
   FiCopy,
@@ -319,87 +318,81 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard dashboard template.
+          🌟 Not your standard habit tracker.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Centurion will keep you accountable, help you get motivated and get you across the finish line.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Use it to dust off the cobwebs and finally achieve those goals you have been meaning to for so long.
         </>
       }
       align="left"
       columns={[1, 2, 3]}
-      iconSize={4}
+      iconSize={8}
       features={[
         {
-          title: "Components.",
-          icon: FiBox,
+          title: "Customizable Habit Categories.",
+          icon: FiSliders,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Users can create personalized categories for their habits, allowing them to organize and track various aspects of their lives such as fitness, productivity, mindfulness, etc.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
-          icon: FiLock,
+          title: "Reminders and Notifications.",
+          icon: FiThumbsUp,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Scheduled reminders and notifications to keep users on track with their habits, ensuring they don't forget or procrastinate on their tasks.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
-          icon: FiSearch,
+          title: "Goal Setting and Tracking.",
+          icon: FiTarget,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Capability to set specific goals for each habit, with progress tracking towards those goals, motivating users to achieve milestones.",
           variant: "inline",
         },
         {
-          title: "Onboarding.",
+          title: "Social Sharing and Accountability.",
           icon: FiUserPlus,
           description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+            "Option to share progress with friends or join communities within the app, fostering accountability and support among users striving towards similar goals.",
           variant: "inline",
         },
         {
-          title: "Feature flags.",
+          title: "Habit Streaks.",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Recognition and celebration of consecutive days of habit adherence with customizable streak counters and rewards to encourage consistency.",
           variant: "inline",
         },
         {
-          title: "Upselling.",
+          title: "Habit Coaching.",
           icon: FiTrendingUp,
           description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
+            "Offering access to habit coaches or mentors within the app who can provide personalized guidance, support, and motivation to help users achieve their habit goals.",
           variant: "inline",
         },
         {
-          title: "Themes.",
+          title: "Visual feedback.",
           icon: FiToggleLeft,
           description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
+            "Users get concise and engaging graphical representations of their habit progress, aiding in quick comprehension and motivation. Through charts, graphs, and animations, users effortlessly track their performance, identify trends, and stay motivated on their habit journey.",
           variant: "inline",
         },
         {
-          title: "Generators.",
+          title: "Offline Mode.",
           icon: FiTerminal,
           description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
+            "A feature that allows users to track their habits even when they're offline, ensuring uninterrupted usage and data synchronization once they regain internet access.",
           variant: "inline",
         },
         {
-          title: "Monorepo.",
-          icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
+          title: "Advanced Habit Insights.",
+          icon: FiGrid,
+          description: 
+            "Offering advanced analytics and insights such as correlation analysis between different habits, identifying patterns that may influence overall lifestyle changes, and providing actionable recommendations based on these insights.",
           variant: "inline",
         },
       ]}
