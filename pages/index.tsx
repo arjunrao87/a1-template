@@ -98,7 +98,7 @@ const HeroSection: React.FC = () => {
             title="Consistency comes from 100 repetitions of "
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Focus on what matters. Commit, Execute, Repeat. <Em>100x</Em>.
+                Use <Em>Centurion</Em> to track your habits. Execute, Record, Repeat. <Em>100x</Em>.
               </FallInPlace>
             }
           >
