@@ -9,7 +9,6 @@ import theme from "../theme";
 
 const clerkPubKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
-
 function MyApp({ Component, pageProps }: AppProps) {
   const { announcement, header, footer } = pageProps;
 
